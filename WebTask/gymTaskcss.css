@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('bg1.jpg');
+}
+/* NavBar */
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #C6B866;
+}
+.navBar .gymTag img{
+    position:absolute;
+    left :880px;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.navBar{
+    background-color: #404042;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.navBar .gymName a{
+    font-size: 25px;
+}
+.navBar .barCont ul li{
+    display: inline-block;
+    padding: 8px;
+}
+.navBar .navBar-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Body */
+
+.gymLogo img{
+    position:absolute;
+    left :816px;
+    top:100px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    font-size: 10px;
+    position: absolute;
+    bottom:650px;
+    left:892px;
+    color: #C6B866;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 650;
+    font-size: 15px;
+    position: absolute;
+    bottom:585px;
+    left:658px;
+    color: #404042;
+}
+.gymAll img{
+    position:absolute;
+    left :3px;
+    bottom: 2px;
+}
