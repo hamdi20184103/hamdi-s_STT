@@ -1,0 +1,20 @@
+<h1>Rob3 Far5a</h1>
+<h2>The First name is {{ firstName }}</h2>
+<img [src] = "firstImg" alt="">
+<button (click)="greeting()">Click Ya Bro</button>
+<input type="text" [(ngModel)]="firstName">
+
+<h1>Ya {{firstName}}, Omak 7amel</h1>
+<img [src]="secImg" alt="">
+
+<div class="text-center">
+        <div class="mY">
+            <ul class="list-group my-7 p-3 container w-40">
+                <li class="list-group-item">Made Google</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+              </ul>
+        </div>
+    </div>
